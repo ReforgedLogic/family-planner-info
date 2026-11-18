@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Add your calendar to the Carney family planner</title>
+<style>
+body{font:17px/1.55 system-ui,sans-serif;max-width:640px;margin:0 auto;padding:24px 18px 60px;color:#1d2321;background:#fbf8f3}
+h1{font-size:1.7rem;line-height:1.2;margin:.2em 0 .3em}h2{font-size:1.25rem;margin:1.6em 0 .5em}
+.lede{color:#4a524e;margin-top:0}
+.tabs{display:flex;gap:8px;margin:18px 0 6px}.tabs a{flex:1;text-align:center;padding:12px 8px;border-radius:12px;background:#ece6dc;color:#1d2321;font-weight:700;text-decoration:none}
+.tabs a:target,.tabs a:hover{background:#cf4e70;color:#fff}
+ol{padding-left:1.3em}li{margin:.55em 0}
+.box{background:#fff;border:1px solid #e6dfd3;border-radius:14px;padding:6px 16px 10px;margin-top:10px}
+.email{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:#f4efe6;border-radius:10px;padding:10px 12px;margin:.4em 0;font-weight:700;word-break:break-all}
+button{font:inherit;font-weight:700;border:0;border-radius:9px;padding:8px 14px;background:#cf4e70;color:#fff}
+.note{font-size:.92rem;color:#5b625e}
+b.key{background:#f4efe6;border-radius:6px;padding:1px 6px}
+</style></head><body>
+<h1>Add your calendar to our family planner</h1>
+<p class="lede">Our kitchen planner shows the calendars people share with it, each in its own color. It only reads your events. It never changes them, and you can stop sharing any time.</p>
+<div class="tabs"><a href="#google">I use Google Calendar</a><a href="#iphone">I use an iPhone calendar</a></div>
+
+<h2 id="google">Google Calendar (Android or iPhone)</h2>
+<div class="box"><ol>
+<li>On your phone, open <b>Chrome</b> (or Safari) and go to <b>calendar.google.com</b>. If it opens the Calendar app or a simple page, use the browser menu and turn on <b class="key">Desktop site</b>.</li>
+<li>Tap the <b class="key">⚙ Settings</b> gear at the top right, then <b>Settings</b>.</li>
+<li>On the left, under <b>Settings for my calendars</b>, tap <b>your name</b>.</li>
+<li>Find <b>Share with specific people or groups</b> and tap <b class="key">+ Add people and groups</b>.</li>
+<li>Enter the planner's email:
+  <div class="email"><span id="em">carney.planner@gmail.com</span><button onclick="navigator.clipboard.writeText(document.getElementById('em').textContent);this.textContent='Copied'">Copy</button></div></li>
+<li>Set permission to <b class="key">See all event details</b> and tap <b>Send</b>.</li>
+<li>Tell Jerard or Kirstin the email address you use for Google Calendar. They'll add you on the planner in a few seconds.</li>
+</ol>
+<p class="note">Want them to see only when you're busy? Pick <b>See only free/busy</b> instead.</p></div>
+
+<h2 id="iphone">iPhone calendar (iCloud)</h2>
+<div class="box"><ol>
+<li>Open the <b>Calendar</b> app and tap <b>Calendars</b> at the bottom.</li>
+<li>Tap the <b class="key">ⓘ</b> next to the calendar you want to share.</li>
+<li>Turn on <b>Public Calendar</b>, then tap <b>Share Link…</b></li>
+<li>Text the link to Jerard or Kirstin. They'll paste it into the planner.</li>
+</ol>
+<p class="note">A public calendar link lets anyone who has the link see that calendar, so only send it to us.</p></div>
+
+<h2>Outlook</h2>
+<div class="box"><ol>
+<li>In Outlook on the web, open <b>Settings</b>, then <b>Calendar</b>, then <b>Shared calendars</b>.</li>
+<li>Under <b>Publish a calendar</b>, pick your calendar and <b>Can view all details</b>, then <b>Publish</b>.</li>
+<li>Copy the <b>ICS</b> link and text it to Jerard or Kirstin.</li>
+</ol></div>
+<p class="note" style="margin-top:2em">Thanks for being part of our planner! <a href="index.html">About Family Planner</a> · <a href="privacy.html">Privacy</a></p>
+</body></html>
